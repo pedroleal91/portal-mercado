@@ -1,0 +1,51 @@
+/* Estilo geral do Portal Mercado/Supermercado */
+
+body {
+  background-color: #f5f7fa;
+  padding-top: 70px; /* espaço pro navbar fixo */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+  color: white;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-desafio {
+  transition: transform 0.2s ease-in-out;
+  height: 100%;
+}
+
+.card-desafio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.resultado-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  font-weight: 500;
+  display: none;
+}
+
+.resultado-box.mostrar {
+  display: block;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  text-align: center;
+  color: #6c757d;
+}
